@@ -1,0 +1,6 @@
+Var Boby =$response.body
+Var boby =$request.url
+Var obj =json.parse(body)
+Const vip ='/verify'
+If (url.indexof(vip)!=-1）{
+Obj.ispro=ture
